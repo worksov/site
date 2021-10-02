@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../iconFonts/icomoon.eot?7vomle');
+  src:  url('../../iconFonts/icomoon.eot?7vomle#iefix') format('embedded-opentype'),
+    url('../../iconFonts/icomoon.ttf?7vomle') format('truetype'),
+    url('../../iconFonts/icomoon.woff?7vomle') format('woff'),
+    url('../../iconFonts/icomoon.svg?7vomle#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="-icon-"]::before, [class*=" -icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin: 0 20px 0 0;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.-icon-facebook:before {
+  content: "\e904";
+  color: #ffc222;
+  font-size: 30px;
+  transition: .3s;
+}
+.-icon-facebook:hover:before {
+  content: "\e904";
+  color: #fff;
+}
+
+.-icon-instagram:before {
+  content: "\e905";
+  color: #ffc222;
+  font-size: 30px;
+  transition: .3s;
+}
+.-icon-instagram:hover:before {
+  content: "\e905";
+  color: #fff;
+}
+
+.-icon-briefcase:before {
+  content: "\e900";
+  color: #5f5f5f;
+  transition: .3s;
+}
+.-icon-briefcase:hover:before {
+  content: "\e900";
+  color: #fff;
+}
+
+.-icon-envelope:before {
+  content: "\e901";
+  color: #ffc222;
+  transition: .3s;
+}
+.-icon-envelope:hover:before {
+  content: "\e901";
+  color: #fff;
+}
+
+.-icon-map:before {
+  content: "\e902";
+  color: #ffc222;
+  transition: .3s;
+}
+.-icon-map:hover:before {
+  content: "\e902";
+  color: #fff;
+}
+
+.-icon-phone:before {
+  content: "\e903";
+  color: #ffc222;
+  transition: .3s;
+}
+.-icon-phone:hover:before {
+  content: "\e903";
+  color: #fff;
+}

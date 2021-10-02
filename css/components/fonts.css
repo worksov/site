@@ -1,0 +1,14 @@
+@font-face {
+    font-family: PTSerif-Bold;
+    src: url('../../fonts/PTSerif-Bold.ttf');
+}
+
+@font-face {
+    font-family: PTSerif-Italic;
+    src: url('../../fonts/PTSerif-Italic.ttf');
+}
+
+@font-face {
+    font-family: PTSerif-Regular;
+    src: url('../../fonts/PTSerif-Regular.ttf');
+}
